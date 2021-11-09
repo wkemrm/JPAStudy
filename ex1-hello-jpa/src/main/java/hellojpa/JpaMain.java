@@ -14,17 +14,26 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Member member1 = new Member(150L, "A");
-            Member member2 = new Member(160L, "B");
 
-            //1차캐시 등록 후 sql저장소에 쿼리를 쌓는다.
-            em.persist(member1);
-            em.persist(member2);
+            //저장
+            Team team = new Team();
+            team.setName("TeamA");
+            em.persist(team);
 
-            System.out.println("============");
-            //이때 db에 sql저장소에 있는 쿼리를 날린다.
-            //버펄링을 모아서 write하는 이점을 얻을 수 있다.
-            tx.commit();
+            Member member = new Member();
+            member.setUsername("member1");
+            member.setTeam(team);
+            em.persist(member);
+
+            em.flush();
+            em.clear();
+
+            Member findMember = em.find(Member.class, member.getId());
+            List<Member> members = findMember.getTeam().getMembers();
+
+            for (Member m : members) {
+                System.out.println("m.getUsername() = " + m.getUsername());
+            }
         } catch (Exception e) {
             tx.rollback();
         } finally {
