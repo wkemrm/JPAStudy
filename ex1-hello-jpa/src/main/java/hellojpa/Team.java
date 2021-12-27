@@ -1,7 +1,5 @@
 package hellojpa;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
