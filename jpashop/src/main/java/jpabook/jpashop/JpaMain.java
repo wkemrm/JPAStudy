@@ -15,7 +15,6 @@ public class JpaMain {
         EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
         tx.begin();
-
         try {
             Order order = new Order();
             order.addOrderItem(new OrderItem());
