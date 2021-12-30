@@ -1,16 +1,18 @@
 package hellojpa;
 
+import org.hibernate.annotations.DiscriminatorOptions;
+
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
-public class Team extends BaseEntity {
-    @Id
-    @GeneratedValue
-    @Column(name = "TEAM_ID")
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name = "DTYPE")
+public class Item {
+    @Id @GeneratedValue
     private Long id;
+
     private String name;
+    private String price;
 
     public Long getId() {
         return id;
@@ -26,5 +28,13 @@ public class Team extends BaseEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 }
