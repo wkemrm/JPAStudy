@@ -14,15 +14,40 @@ public class JpaMain {
         tx.begin();
 
         try {
-            CriteriaBuilder cb = em.getCriteriaBuilder();
-            CriteriaQuery<Member> query = cb.createQuery(Member.class);
+            Team team1 = new Team();
+            team1.setName("팀A");
+            em.persist(team1);
+            Team team2 = new Team();
+            team2.setName("팀B");
+            em.persist(team2);
+            Team team3 = new Team();
+            team3.setName("팀C");
+            em.persist(team3);
 
-            Root<Member> m = query.from(Member.class);
+            Member member1 = new Member();
+            member1.setUsername("멤버1");
+            member1.setTeam(team1);
+            em.persist(member1);
 
-            CriteriaQuery<Member> cq = query.select(m).where(cb.equal(m.get("username"), "kim"));
+            Member member2 = new Member();
+            member2.setUsername("멤버2");
+            member2.setTeam(team1);
+            em.persist(member2);
 
-            em.createQuery(cq).getResultList()
+            Member member3 = new Member();
+            member3.setUsername("멤버3");
+            member3.setTeam(team2);
+            em.persist(member3);
 
+            em.flush();
+            em.clear();
+
+            String jpql = "select m from Member m";
+            List<Member> resultList = em.createQuery(jpql, Member.class).getResultList();
+
+            for (Member member : resultList) {
+                System.out.println("member.getUsername() + member.getTeam().getName() = " + member.getUsername() +"    " +  member.getTeam().getName());
+            }
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
