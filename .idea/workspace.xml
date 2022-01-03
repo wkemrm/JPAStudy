@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a65a71d-da90-41bb-bd30-4fde9182bf50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Period.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/target/classes/jpabook/jpashop/domain/OrderItem.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a65a71d-da90-41bb-bd30-4fde9182bf50" name="Changes" comment="" />
+      <created>1640768597632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640768597632</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
