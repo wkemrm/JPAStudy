@@ -22,6 +22,15 @@ public class Member {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public String getUsername() {
         return username;
     }
