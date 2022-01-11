@@ -28,7 +28,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a65a71d-da90-41bb-bd30-4fde9182bf50" name="Changes" comment="" />
+      <changelist id="5198de32-de99-4fb0-9528-9559f1ef8eeb" name="Changes" comment="study" />
       <created>1640768597632</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -46,6 +46,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study" />

@@ -39,14 +39,14 @@ public class MemberService {
     }
 
     public Member findOne(Long memberId) {
-        return memberRepository.findOne(memberId);
+        return memberRepository.findById(memberId).get();
     }
 
     //CQR 기법 조회와 변경을 분리한다 INSERT -> PK 반환 UPDATE -> VOID 변경만 SELECT -> 변경하지 않는 코드로 설계
     // DELETE -> ?
     @Transactional
     public void update(Long id, String name) {
-        Member member = memberRepository.findOne(id);
+        Member member = memberRepository.findById(id).get();
         member.setName(name);
     }
 }
