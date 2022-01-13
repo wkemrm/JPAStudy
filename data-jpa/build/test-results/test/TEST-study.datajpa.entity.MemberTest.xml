@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="study.datajpa.entity.MemberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-13T05:09:37" hostname="DESKTOP-G3OBLHC" time="0.098">
+  <properties/>
+  <testcase name="testEntity()" classname="study.datajpa.entity.MemberTest" time="0.098"/>
+  <system-out><![CDATA[2022-01-13 14:09:37.407  INFO 11460 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [study.datajpa.entity.MemberTest], using SpringBootContextLoader
+2022-01-13 14:09:37.407  INFO 11460 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [study.datajpa.entity.MemberTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-01-13 14:09:37.407  INFO 11460 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [study.datajpa.entity.MemberTest]: MemberTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-01-13 14:09:37.422  INFO 11460 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration study.datajpa.DataJpaApplication for test class study.datajpa.entity.MemberTest
+2022-01-13 14:09:37.422  INFO 11460 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-01-13 14:09:37.422  INFO 11460 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@73dc7db0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3a6216, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@319ea996, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1de398c3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@dc24732, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44a1ae4e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@377d55, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@193c810, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ef7e4c7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57edfa89, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c0bf8f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@73476e2d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52b77d5e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6ab6ec33, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@594965c9]
+2022-01-13 14:09:37.438  INFO 11460 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@11b74ecb testClass = MemberTest, testInstance = study.datajpa.entity.MemberTest@78839c2e, testMethod = testEntity@MemberTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@25093079 testClass = MemberTest, locations = '{}', classes = '{class study.datajpa.DataJpaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b7c4869, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f9a2c08, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@48e92c5c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@386f0da3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2ea6e30c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@74455848], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@58ca6ba3]; rollback [false]
+2022-01-13 14:09:37.438 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2022-01-13 14:09:37.454 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2022-01-13 14:09:37.454 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2022-01-13 14:09:37.454 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2022-01-13 14:09:37.454 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2022-01-13 14:09:37.454 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2022-01-13 14:09:37.454 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        team
+        (name, team_id) 
+    values
+        (?, ?)
+2022-01-13 14:09:37.469 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        team
+        (name, team_id) 
+    values
+        (?, ?)
+2022-01-13 14:09:37.469 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (age, team_id, username, member_id) 
+    values
+        (?, ?, ?, ?)
+2022-01-13 14:09:37.469 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (age, team_id, username, member_id) 
+    values
+        (?, ?, ?, ?)
+2022-01-13 14:09:37.469 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (age, team_id, username, member_id) 
+    values
+        (?, ?, ?, ?)
+2022-01-13 14:09:37.469 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (age, team_id, username, member_id) 
+    values
+        (?, ?, ?, ?)
+2022-01-13 14:09:37.469 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        member0_.member_id as member_i1_0_,
+        member0_.age as age2_0_,
+        member0_.team_id as team_id4_0_,
+        member0_.username as username3_0_ 
+    from
+        member member0_
+member = Member(id=3, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=4, username=BBB, age=20)
+member.getTeam() = null
+member = Member(id=5, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=6, username=BBB, age=20)
+member.getTeam() = null
+member = Member(id=7, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=8, username=AAA, age=20)
+member.getTeam() = null
+member = Member(id=9, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=10, username=BBB, age=20)
+member.getTeam() = null
+member = Member(id=11, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=12, username=AAA, age=20)
+member.getTeam() = null
+member = Member(id=13, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=14, username=BBB, age=20)
+member.getTeam() = null
+member = Member(id=15, username=AAA, age=10)
+member.getTeam() = null
+member = Member(id=16, username=BBB, age=20)
+member.getTeam() = null
+member = Member(id=17, username=memberA, age=0)
+member.getTeam() = null
+member = Member(id=19, username=AAA, age=10)
+2022-01-13 14:09:37.500 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        team0_.team_id as team_id1_1_0_,
+        team0_.name as name2_1_0_ 
+    from
+        team team0_ 
+    where
+        team0_.team_id=?
+member.getTeam() = Team(id=18, name=teamA)
+member = Member(id=22, username=member1, age=10)
+2022-01-13 14:09:37.516 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        team0_.team_id as team_id1_1_0_,
+        team0_.name as name2_1_0_ 
+    from
+        team team0_ 
+    where
+        team0_.team_id=?
+member.getTeam() = Team(id=20, name=teamA)
+member = Member(id=23, username=member2, age=20)
+member.getTeam() = Team(id=20, name=teamA)
+member = Member(id=24, username=member3, age=30)
+2022-01-13 14:09:37.516 DEBUG 11460 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        team0_.team_id as team_id1_1_0_,
+        team0_.name as name2_1_0_ 
+    from
+        team team0_ 
+    where
+        team0_.team_id=?
+member.getTeam() = Team(id=21, name=teamB)
+member = Member(id=25, username=member4, age=40)
+member.getTeam() = Team(id=21, name=teamB)
+2022-01-13 14:09:37.532  INFO 11460 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Committed transaction for test: [DefaultTestContext@11b74ecb testClass = MemberTest, testInstance = study.datajpa.entity.MemberTest@78839c2e, testMethod = testEntity@MemberTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@25093079 testClass = MemberTest, locations = '{}', classes = '{class study.datajpa.DataJpaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b7c4869, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f9a2c08, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@48e92c5c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@386f0da3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2ea6e30c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@74455848], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
